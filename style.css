@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    border: 1px solid red;
+}
+.module {
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
